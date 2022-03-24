@@ -36,10 +36,10 @@ public class WorkerResource {
 	
 	@GetMapping("/{id}")
 	public ResponseEntity<Worker> findById(@PathVariable("id") Long id) {
-		Worker worker = repository.findById(id).orElse(null);
 
 		logger.info("PORT = " + env.getProperty("local.server.port"));
 		
+		Worker worker = repository.findById(id).orElse(null);		
 		return ResponseEntity.ok(worker);
 	}
 }
