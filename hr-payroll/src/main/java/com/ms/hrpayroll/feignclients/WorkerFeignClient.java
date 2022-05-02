@@ -1,4 +1,4 @@
-package com.ms.hrpayroll.feignClients;
+package com.ms.hrpayroll.feignclients;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;

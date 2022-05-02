@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 import com.ms.hrpayroll.entities.Payment;
 import com.ms.hrpayroll.entities.Worker;
-import com.ms.hrpayroll.feignClients.WorkerFeignClient;
+import com.ms.hrpayroll.feignclients.WorkerFeignClient;
 
 @Service
 public class PaymentService {
